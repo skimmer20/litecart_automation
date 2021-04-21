@@ -22,6 +22,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
     private WebElement currenciesTab;*/
     @FindBy(xpath = "//span[@title='Currencies']")
     private WebElement currenciesTab;
+    @FindBy(xpath = "//span[@title='Catalog']")
+    private WebElement catalogTab;
     @FindBy(xpath = "//a[contains(@title,'Logout')]")
     private WebElement logoutText;
 
@@ -64,7 +66,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
     public CatalogPage openCatalogPage() {
         waitForElementPresent(logoutLocator);
-        currenciesTab.click();
+        catalogTab.click();
         return new CatalogPage(driver);
     }
 }
