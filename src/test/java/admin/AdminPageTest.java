@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class AdminPageTest extends BaseTest {
 
     @Test
-    public void openCurrenciesPageTest() {
+    public void openCurrenciesPageTest() throws InterruptedException {
         loginPage.verifyLoginCredentials("admin", "admin")
                 .openCurrenciesPage();
     }

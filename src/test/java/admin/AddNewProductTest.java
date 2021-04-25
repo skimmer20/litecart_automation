@@ -1,5 +1,6 @@
 package admin;
 
+import dto.ProductDto;
 import org.testng.annotations.Test;
 
 /**
@@ -9,8 +10,21 @@ import org.testng.annotations.Test;
 public class AddNewProductTest extends BaseTest {
 
     @Test
-    public void addNewProductTest(){
+    public void addNewProductTest() throws Exception {
+        ProductDto productDto = new ProductDto();
+        productDto.setDefaultCategory("Subcategory");
+        productDto.setDateFrom("03-03-2021");
+        productDto.setDateTo("03-03-2022");
+        productDto.setName("Batman");
+        productDto.setCode("rd006");
+        productDto.setSku("RD006");
+        productDto.setMpn("12340006");
+        productDto.setManufacturer("ACME Corp.");
+        productDto.setFileLocalUrl("/Users/yuriismac/Downloads/batman_duck.png");
         loginPage.verifyLoginCredentials("admin", "admin")
-                .openCatalogPage();
+                .openCatalogPage()
+                .openNewProductPage()
+                .fillGeneralTab(productDto);
+
     }
 }

@@ -17,7 +17,7 @@ public class CurrenciesPage {
     private AdminPage adminPage;
 
     private final String addCurrencyLocator = "//li/a[@class='btn btn-default']";
-    @FindBy(xpath = "//li/a[@class='btn btn-default']")
+    @FindBy(xpath = "//div[@class='panel-action']//a[contains(@href,'edit_currency')]")
     private WebElement addNewCurrencyButton;
 
     public CurrenciesPage(WebDriver driver) {
@@ -28,7 +28,7 @@ public class CurrenciesPage {
     }
 
     public AddNewCurrencyPage openNewCurrencyPage() {
-        adminPage.waitForElementPresent(addCurrencyLocator);
+        adminPage.waitForElementPresent(addNewCurrencyButton);
         addNewCurrencyButton.click();
         return new AddNewCurrencyPage(webDriver);
     }

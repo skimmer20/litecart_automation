@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class AddNewCurrencyPageTest extends BaseTest {
 
     @Test
-    public void addNewCurrencyTest(){
+    public void addNewCurrencyTest() throws InterruptedException {
         CurrencyDto currencyDto = new CurrencyDto();
         currencyDto.setName("Pound sterling");
         currencyDto.setNumber("826");

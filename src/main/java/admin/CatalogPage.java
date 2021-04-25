@@ -16,8 +16,8 @@ public class CatalogPage {
     private WebDriver driver;
     private WebDriverWait wait;
     private AdminPage adminPage;
-    private final String addNewProductLocator = "//li/a[@class='btn btn-default']";
-    @FindBy(xpath = "//li/a[@class='btn btn-default']")
+    private final String addNewProductLocator = "//li/a[text()=' Add New Product']";
+    @FindBy(xpath = "//li/a[text()=' Add New Product']")
     private WebElement addNewProductButton;
 
     public CatalogPage(WebDriver driver) {
