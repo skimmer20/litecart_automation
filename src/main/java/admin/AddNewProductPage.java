@@ -178,9 +178,22 @@ public class AddNewProductPage {
         return this;
     }
 
-    public CatalogPage fillStockTab(ProductDto productDto) throws InterruptedException {
+    public AddNewProductPage fillStockTab(ProductDto productDto) throws InterruptedException {
+        productWeight.sendKeys(productDto.getWeight());
+        dimX.sendKeys(productDto.getDimX());
+        dimY.sendKeys(productDto.getDimY());
+        dimZ.sendKeys(productDto.getDimZ());
+        productQuantity.sendKeys(productDto.getQuantity());
         Thread.sleep(2000);
-        stockTab.click();
+        saveProductButton.click();
+        return this;
+    }
+
+    public CatalogPage createNewProduct(ProductDto productDto) throws Exception {
+        fillGeneralTab(productDto);
+        fillInformationTab(productDto);
+        fillPriceTab(productDto);
+        fillStockTab(productDto);
         return new CatalogPage(driver);
     }
 

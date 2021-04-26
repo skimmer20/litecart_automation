@@ -26,6 +26,11 @@ public class ProductDto {
     private String description;
     private String technicalData;
     private String price;
+    private String weight;
+    private String dimX;
+    private String dimY;
+    private String dimZ;
+    private String quantity;
 
 
 

@@ -81,7 +81,6 @@ public class AdminPage {
     public CatalogPage openCatalogPage() throws InterruptedException {
         waitForElementPresent(logoutLocator);
         Thread.sleep(5000);
-        waitForElementClickable(catalogTab);
         catalogTab.click();
         return new CatalogPage(driver);
     }

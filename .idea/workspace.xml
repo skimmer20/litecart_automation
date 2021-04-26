@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41a0904b-6fde-4d16-94dd-0550c176bd48" name="Default Changelist" comment="" />
+    <list default="true" id="41a0904b-6fde-4d16-94dd-0550c176bd48" name="Default Changelist" comment="added Catalog Page and test pages">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/admin/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/admin/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/admin/AdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/admin/AdminPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/admin/CatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/admin/CatalogPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/admin/CurrenciesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/admin/CurrenciesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/admin/AddNewCurrencyPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/admin/AddNewCurrencyPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/admin/AdminPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/admin/AdminPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/admin/CatalogTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/admin/Currencies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/admin/CurrenciesPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/admin/CurrenciesPageTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,6 +33,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,7 +45,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1qtfcAtiuqf0UGl3B70oXJBZYOu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -61,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddNewCurrencyPageTest.addNewCurrencyTest">
+  <component name="RunManager" selected="TestNG.AddNewProductTest.addNewProductTest">
     <configuration name="AddNewCurrencyPageTest.addNewCurrencyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart" />
       <extension name="coverage">
@@ -89,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminPageTest.openCurrenciesPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddNewProductTest.addNewProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +123,8 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="admin" />
-      <option name="MAIN_CLASS_NAME" value="admin.AdminPageTest" />
-      <option name="METHOD_NAME" value="openCurrenciesPageTest" />
+      <option name="MAIN_CLASS_NAME" value="admin.AddNewProductTest" />
+      <option name="METHOD_NAME" value="addNewProductTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -116,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminPageTest.verifyLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogPageTest.openNewProductPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +150,8 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="admin" />
-      <option name="MAIN_CLASS_NAME" value="admin.AdminPageTest" />
-      <option name="METHOD_NAME" value="verifyLoginPage" />
+      <option name="MAIN_CLASS_NAME" value="admin.CatalogPageTest" />
+      <option name="METHOD_NAME" value="openNewProductPageTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -170,18 +194,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.verifyLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationPageTest.registerNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="admin.*" />
+          <option name="PATTERN" value="user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="admin" />
-      <option name="MAIN_CLASS_NAME" value="admin.LoginPageTest" />
-      <option name="METHOD_NAME" value="verifyLoginPage" />
+      <option name="PACKAGE_NAME" value="user" />
+      <option name="MAIN_CLASS_NAME" value="user.RegistrationPageTest" />
+      <option name="METHOD_NAME" value="registerNewUser" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -216,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AdminPageTest.verifyLoginPage" />
-      <item itemvalue="TestNG.AdminPageTest.openCurrenciesPageTest" />
-      <item itemvalue="TestNG.LoginPageTest.verifyLoginPage" />
       <item itemvalue="TestNG.CurrenciesPageTest.openNewCurrencyPageTest" />
       <item itemvalue="TestNG.AddNewCurrencyPageTest.addNewCurrencyTest" />
+      <item itemvalue="TestNG.AddNewProductTest.addNewProductTest" />
+      <item itemvalue="TestNG.CatalogPageTest.openNewProductPageTest" />
+      <item itemvalue="TestNG.RegistrationPageTest.registerNewUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddNewProductTest.addNewProductTest" />
+        <item itemvalue="TestNG.RegistrationPageTest.registerNewUser" />
         <item itemvalue="TestNG.AddNewCurrencyPageTest.addNewCurrencyTest" />
+        <item itemvalue="TestNG.CatalogPageTest.openNewProductPageTest" />
         <item itemvalue="TestNG.CurrenciesPageTest.openNewCurrencyPageTest" />
-        <item itemvalue="TestNG.AdminPageTest.openCurrenciesPageTest" />
-        <item itemvalue="TestNG.LoginPageTest.verifyLoginPage" />
-        <item itemvalue="TestNG.AdminPageTest.verifyLoginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -243,12 +267,47 @@
       <option name="presentableId" value="Default" />
       <updated>1617903883818</updated>
       <workItem from="1617903885008" duration="56928000" />
-      <workItem from="1618366122778" duration="75090000" />
+      <workItem from="1618366122778" duration="101138000" />
+      <workItem from="1619327123681" duration="5451000" />
+      <workItem from="1619425212420" duration="1074000" />
     </task>
+    <task id="LOCAL-00001" summary="added Catalog Page and test pages">
+      <created>1619014985350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619014985350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added AddProductPage and some fixed some other tests">
+      <created>1619341474168</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619341474168</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Catalog Page and test pages" />
+    <MESSAGE value="added AddProductPage and some fixed some other tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added AddProductPage and some fixed some other tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -269,19 +328,44 @@
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/admin/CurrenciesPage.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewCurrencyPageTest.java</url>
           <line>23</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/admin/CurrenciesPage.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/admin/CurrenciesPage.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/admin/AdminPage.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="73" />
+          <line>73</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -290,5 +374,10 @@
         <watch expression="userFirstName" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/litecart_project$AddNewProductTest_addNewProductTest.ic" NAME="AddNewProductTest.addNewProductTest Coverage Results" MODIFIED="1619137261368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>admin.*</FILTER>
+    </SUITE>
   </component>
 </project>
