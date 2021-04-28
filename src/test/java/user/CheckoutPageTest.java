@@ -1,5 +1,6 @@
 package user;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -10,6 +11,8 @@ public class CheckoutPageTest extends BaseTest {
 
     @Test
     public void orderCheckoutTest() {
+        CheckoutPage checkoutPage = new CheckoutPage(driver);
+        String expectedText = "Thank you for your purchase. An order confirmation email has been sent. We will process your order shortly.";
         mainPage.login("test@mail.com", "qwerty123")
                 .selectCampaignProduct()
                 .addProductToCart()
@@ -20,5 +23,6 @@ public class CheckoutPageTest extends BaseTest {
                         "35323",
                         "+380324447766"
                 );
+        Assert.assertEquals(checkoutPage.getSuccessOrderConfirmation(), expectedText);
     }
 }

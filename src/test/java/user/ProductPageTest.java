@@ -1,5 +1,6 @@
 package user;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -10,9 +11,12 @@ public class ProductPageTest extends BaseTest {
 
     @Test
     public void addProductToCartTest(){
+        ProductPage productPage = new ProductPage(driver);
+        String expectedProductQuantity = "1";
         mainPage.login("test@mail.com", "qwerty123")
                 .selectCampaignProduct()
                 .selectSizeFromDropdown("Small")
                 .addProductToCart();
+        Assert.assertEquals(productPage.getNumberOfProductsInCart(), expectedProductQuantity);
     }
 }

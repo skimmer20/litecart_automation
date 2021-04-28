@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Iterator;
@@ -26,8 +25,12 @@ public class AddNewProductPage {
 
     @FindBy(xpath = "//label[contains(text(),'Enabled')]")
     private WebElement enableStatusButton;
+    @FindBy(xpath = "//input[@data-name='Root']")
+    private WebElement rootCheckbox;//
     @FindBy(xpath = "//input[@data-name='Subcategory']")
     private WebElement subcategoryCheckbox;//
+    @FindBy(xpath = "//input[@data-name='Rubber Ducks']")
+    private WebElement rubberDuckCheckbox;//
     @FindBy(xpath = "//select[@name='default_category_id']/option")
     private WebElement defaultCategory;//is not used
     @FindBy(xpath = "//input[@name='date_valid_from']")
@@ -81,6 +84,8 @@ public class AddNewProductPage {
     }
 
     public AddNewProductPage selectCategory() {
+        rootCheckbox.click();
+        rubberDuckCheckbox.click();
         subcategoryCheckbox.isSelected();
         subcategoryCheckbox.click();
         return this;
@@ -140,8 +145,12 @@ public class AddNewProductPage {
         return this;
     }
 
-    public AddNewProductPage uploadPhoto(String fileLocalUrl) {
-        chooseFileButton.sendKeys(fileLocalUrl);
+    public AddNewProductPage uploadPhoto(String format) {
+            if (format.equals("png")){
+                chooseFileButton.sendKeys(System.getProperty("user.dir") + "/src/test/resources/batman_duck.png");
+            }else if (format.equals("jpeg")){
+                chooseFileButton.sendKeys(System.getProperty("user.dir") + "/src/test/resources//test-files/big_ben_duck.jpeg");
+            }
         return this;
     }
 
@@ -156,9 +165,7 @@ public class AddNewProductPage {
         typeSku(productDto.getSku());
         typeMpn(productDto.getMpn());
         chooseManufacturer(productDto.getManufacturer());
-        uploadPhoto(productDto.getFileLocalUrl());
         Thread.sleep(2000);
-        informationTab.click();
         return this;
     }
 
@@ -191,6 +198,8 @@ public class AddNewProductPage {
 
     public CatalogPage createNewProduct(ProductDto productDto) throws Exception {
         fillGeneralTab(productDto);
+        uploadPhoto("jpeg");
+        informationTab.click();
         fillInformationTab(productDto);
         fillPriceTab(productDto);
         fillStockTab(productDto);

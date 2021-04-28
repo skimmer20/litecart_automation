@@ -37,6 +37,14 @@ public class MainPage {
     private WebElement selectProduct;
     @FindBy(xpath = "//div[@class='loader-wrapper']/div[@class='loader']")
     private WebElement loader;
+    @FindBy(css = ".alert.alert-success")
+    private WebElement successLoginText;
+
+    public String getSuccessLoginText(){
+        waitForElementVisible(successLoginText);
+        String textEdited = successLoginText.getText().replace("×", "").replace("\n", "");
+        return textEdited;
+    }
 
     public WebElement waitForElementVisible(WebElement element) {
         wait.until(ExpectedConditions.visibilityOf(element));

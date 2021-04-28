@@ -1,6 +1,7 @@
 package admin;
 
 import dto.CurrencyDto;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -22,6 +23,7 @@ public class AddNewCurrencyPageTest extends BaseTest {
                 .openCurrenciesPage()
                 .openNewCurrencyPage()
                 .addNewCurrency(currencyDto);
+        //Assert.assertEquals();
 
     }
 }

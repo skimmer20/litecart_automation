@@ -2,21 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41a0904b-6fde-4d16-94dd-0550c176bd48" name="Default Changelist" comment="added Catalog Page and test pages">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/AddNewProductDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-files/batman_duck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-files/big_ben_duck.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/admin/AddNewProductWithPurchaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/admin/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/admin/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/admin/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/admin/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/admin/AddNewCurrencyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/admin/AddNewCurrencyPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/admin/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/admin/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/CheckoutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/CheckoutPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/ProductPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/ProductPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/RegistrationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/RegistrationPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/admin/AdminPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/admin/AdminPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/admin/CatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/admin/CatalogPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/admin/CurrenciesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/admin/CurrenciesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/CheckoutPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/ProductPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/user/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/user/RegistrationPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/admin/AddNewCurrencyPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/admin/AddNewCurrencyPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/admin/AdminPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/admin/AdminPageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/admin/CatalogTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/admin/Currencies.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/admin/CurrenciesPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/admin/CurrenciesPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/admin/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/admin/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/user/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/user/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/user/CheckoutPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/user/CheckoutPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/user/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/user/MainPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/user/ProductPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/user/ProductPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/user/RegistrationPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/user/RegistrationPageTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +80,11 @@
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="admin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/photos" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="admin" />
@@ -68,9 +94,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="admin" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src/test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,34 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddNewProductTest.addNewProductTest">
-    <configuration name="AddNewCurrencyPageTest.addNewCurrencyTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="litecart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="admin" />
-      <option name="MAIN_CLASS_NAME" value="admin.AddNewCurrencyPageTest" />
-      <option name="METHOD_NAME" value="addNewCurrencyTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CheckoutPageTest.orderCheckoutTest">
     <configuration name="AddNewProductTest.addNewProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart" />
       <extension name="coverage">
@@ -140,18 +138,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogPageTest.openNewProductPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckoutPageTest.orderCheckoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="admin.*" />
+          <option name="PATTERN" value="user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="admin" />
-      <option name="MAIN_CLASS_NAME" value="admin.CatalogPageTest" />
-      <option name="METHOD_NAME" value="openNewProductPageTest" />
+      <option name="PACKAGE_NAME" value="user" />
+      <option name="MAIN_CLASS_NAME" value="user.CheckoutPageTest" />
+      <option name="METHOD_NAME" value="orderCheckoutTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -167,18 +165,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrenciesPageTest.openNewCurrencyPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="admin.*" />
+          <option name="PATTERN" value="user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="admin" />
-      <option name="MAIN_CLASS_NAME" value="admin.CurrenciesPageTest" />
-      <option name="METHOD_NAME" value="openNewCurrencyPageTest" />
+      <option name="PACKAGE_NAME" value="user" />
+      <option name="MAIN_CLASS_NAME" value="user.MainPageTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductPageTest.addProductToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="litecart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="user" />
+      <option name="MAIN_CLASS_NAME" value="user.ProductPageTest" />
+      <option name="METHOD_NAME" value="addProductToCartTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -240,19 +265,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CurrenciesPageTest.openNewCurrencyPageTest" />
-      <item itemvalue="TestNG.AddNewCurrencyPageTest.addNewCurrencyTest" />
       <item itemvalue="TestNG.AddNewProductTest.addNewProductTest" />
-      <item itemvalue="TestNG.CatalogPageTest.openNewProductPageTest" />
       <item itemvalue="TestNG.RegistrationPageTest.registerNewUser" />
+      <item itemvalue="TestNG.MainPageTest.login" />
+      <item itemvalue="TestNG.ProductPageTest.addProductToCartTest" />
+      <item itemvalue="TestNG.CheckoutPageTest.orderCheckoutTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddNewProductTest.addNewProductTest" />
+        <item itemvalue="TestNG.CheckoutPageTest.orderCheckoutTest" />
+        <item itemvalue="TestNG.ProductPageTest.addProductToCartTest" />
         <item itemvalue="TestNG.RegistrationPageTest.registerNewUser" />
-        <item itemvalue="TestNG.AddNewCurrencyPageTest.addNewCurrencyTest" />
-        <item itemvalue="TestNG.CatalogPageTest.openNewProductPageTest" />
-        <item itemvalue="TestNG.CurrenciesPageTest.openNewCurrencyPageTest" />
+        <item itemvalue="TestNG.MainPageTest.login" />
+        <item itemvalue="TestNG.AddNewProductTest.addNewProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +294,7 @@
       <workItem from="1617903885008" duration="56928000" />
       <workItem from="1618366122778" duration="101138000" />
       <workItem from="1619327123681" duration="5451000" />
-      <workItem from="1619425212420" duration="1074000" />
+      <workItem from="1619425212420" duration="21093000" />
     </task>
     <task id="LOCAL-00001" summary="added Catalog Page and test pages">
       <created>1619014985350</created>
@@ -285,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619341474168</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first draft AddProduct">
+      <created>1619426588795</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619426588795</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +339,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Catalog Page and test pages" />
     <MESSAGE value="added AddProductPage and some fixed some other tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added AddProductPage and some fixed some other tests" />
+    <MESSAGE value="first draft AddProduct" />
+    <option name="LAST_COMMIT_MESSAGE" value="first draft AddProduct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,7 +352,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/user/ProductPage.java</url>
-          <line>59</line>
+          <line>64</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -329,27 +362,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewCurrencyPageTest.java</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java</url>
-          <line>97</line>
+          <line>36</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java</url>
-          <line>95</line>
+          <line>34</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/admin/AddNewProductTest.java</url>
-          <line>96</line>
+          <line>35</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -364,12 +397,41 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/admin/AdminPage.java</url>
-          <line>73</line>
+          <line>72</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/user/MainPageTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/admin/AddNewProductPage.java</url>
+          <line>93</line>
+          <properties class="admin.AddNewProductPage" method="chooseDefaultCategory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/user/ProductPage.java</url>
+          <line>51</line>
+          <properties class="user.ProductPage" method="addProductToCart">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="mainPage.getSuccessLoginText()" language="JAVA" />
+      </configuration>
       <configuration name="Application">
         <watch expression="userFirstName" language="JAVA" />
       </configuration>

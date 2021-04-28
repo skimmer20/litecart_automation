@@ -1,17 +1,12 @@
 package admin;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 /**
  * @author yuriismac on 4/19/21.
@@ -36,6 +31,10 @@ public class AdminPage {
         loginPage = new LoginPage(driver);
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver, 10);
+    }
+
+    public static void open(WebDriver driver){
+        driver.navigate().to("http://localhost/litecart/admin/login.php");
     }
 
     public void waitForElementPresent(String locator) {
@@ -81,6 +80,7 @@ public class AdminPage {
     public CatalogPage openCatalogPage() throws InterruptedException {
         waitForElementPresent(logoutLocator);
         Thread.sleep(5000);
+        catalogTab.isDisplayed();
         catalogTab.click();
         return new CatalogPage(driver);
     }

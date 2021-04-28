@@ -1,6 +1,7 @@
 package user;
 
 import dto.UserDto;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -11,16 +12,18 @@ public class RegistrationPageTest extends BaseTest {
 
     @Test
     public void registerNewUser() {
+        String expectedText = "Your customer account has been created.";
         RegistrationPage registrationPage = new RegistrationPage(driver);
         mainPage.openRegistrationForm();
         registrationPage.typeFirstName("Yura");
-        registrationPage.typeLastName("pav");
+        registrationPage.typeLastName("Pavliuk");
         registrationPage.selectCountry();
-        registrationPage.typeEmail("test@mail.com");
+        registrationPage.typeEmail("qwerty@email.com");
         registrationPage.typePassword("qwerty123");
         registrationPage.typeConfirmPassword("qwerty123");
         registrationPage.selectTermsAgreed();
         registrationPage.selectNewsletterSubscribe();
         registrationPage.clickSignUpButton();
+        Assert.assertEquals(registrationPage.getSuccessRegistrationText(), expectedText);
     }
 }

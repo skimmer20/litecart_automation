@@ -23,6 +23,7 @@ public class RegistrationPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         new WebDriverWait(driver, 10);
+        mainPage = new MainPage(driver);
     }
 
     @FindBy(name = "firstname")
@@ -43,6 +44,8 @@ public class RegistrationPage {
     private WebElement userTermsAgreed;
     @FindBy(xpath = "//div[@class='btn-group']/button[@name='create_account']")
     private WebElement userSignUpButton;
+    @FindBy(css = ".alert.alert-success")
+    private WebElement successRegistrationText;
 
     public RegistrationPage typeFirstName(String firstName) {
         userFirstName.sendKeys(firstName);
@@ -100,5 +103,11 @@ public class RegistrationPage {
         selectTermsAgreed();
         clickSignUpButton();
         return this;
+    }
+
+    public String getSuccessRegistrationText(){
+        mainPage.waitForElementVisible(successRegistrationText);
+        String textEdited = successRegistrationText.getText().replace("×", "").replace("\n", "");
+        return textEdited;
     }
 }

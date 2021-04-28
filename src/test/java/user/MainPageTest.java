@@ -1,5 +1,8 @@
 package user;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -9,7 +12,9 @@ import org.testng.annotations.Test;
 public class MainPageTest extends BaseTest {
 
     @Test
-    public void login(){
-        mainPage.login("q12312w@mail.com","q123456");
+    public void login() {
+        String expectedText = "You are now logged in as Test1 Test2.";
+        mainPage.login("q12312w@mail.com", "q123456");
+        Assert.assertEquals(mainPage.getSuccessLoginText(), expectedText);
     }
 }

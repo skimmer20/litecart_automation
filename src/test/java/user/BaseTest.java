@@ -29,12 +29,13 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.navigate().to(BASE_URL);
         mainPage = new MainPage(driver);
+        driver.manage().deleteAllCookies();
     }
 
-    /*@AfterMethod
+    @AfterMethod
     public void close() {
         if (driver != null) {
             driver.close();
         }
-    }*/
+    }
 }

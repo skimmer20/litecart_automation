@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginPageTest extends BaseTest {
 
     @Test
-    public void verifyLoginPage() {
+    public void verifyUserCanLogin() {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.verifyLoginCredentials("admin", "admin");
     }

@@ -56,6 +56,11 @@ public class ProductPage {
         return this;
     }
 
+    public String getNumberOfProductsInCart(){
+        mainPage.waitForElementVisible(badgeQuantity);
+        return badgeQuantity.getText();
+    }
+
     public CheckoutPage openCart() {
         cartButton.click();
         return new CheckoutPage(driver);

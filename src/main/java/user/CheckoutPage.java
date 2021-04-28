@@ -38,6 +38,8 @@ public class CheckoutPage {
     private WebElement checkboxSelect;
     @FindBy(xpath = "//div[@class='col-md-3']/button")
     private WebElement confirmOrderButton;
+    @FindBy(xpath = "//p[text()='Thank you for your purchase. An order confirmation email has been sent. We will process your order shortly.']")
+    private WebElement orderConfirmationText;
 
     public CheckoutPage typeAddress(String address) {
         addressField.sendKeys(address);
@@ -72,6 +74,11 @@ public class CheckoutPage {
     public CheckoutPage confirmOrderButton(){
         confirmOrderButton.sendKeys(Keys.ENTER);
         return this;
+    }
+
+    public String getSuccessOrderConfirmation(){
+        mainPage.waitForElementVisible(orderConfirmationText);
+        return orderConfirmationText.getText();
     }
 
     public CheckoutPage orderCheckout(String address, String city, String postCode, String phoneNumber){
